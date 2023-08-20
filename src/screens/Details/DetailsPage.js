@@ -22,10 +22,7 @@ function DetailsPage(props) {
   }
 
   let img_path = 'https://image.tmdb.org/t/p/original'
-  // let img =
-  // data && data.poster_path
-  //   ? img_path + data.poster_path
-  //   : 'https://picsum.photos/150/150'
+  
 
   useEffect(() => {
     axios

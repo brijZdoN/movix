@@ -4,7 +4,6 @@
   align-items: center;
   margin-bottom: 10px;
   border-radius: 2px;
-  
   background-color: #ffffff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -27,6 +26,6 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: flex-start;
-  background-color: #ededed;
+  /* background-color: #ededed; */
   padding: 1em .01em;
 }
