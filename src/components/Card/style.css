@@ -10,6 +10,7 @@
   height: 14em;
   border-radius: 10px 10px 0 0;
   display: block;
+ 
 }
 .card-info {
   padding: 0.1em 0.2em;
@@ -21,11 +22,10 @@
 }
 
 .title-info {
-  font-size: 0.8em;
+  font-size: 0.6em;
   font-weight: bold;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
+  /* text-overflow: ellipsis; */
+  /* white-space: nowrap; */
 }
 .description-info {
   margin-top: 10px;
