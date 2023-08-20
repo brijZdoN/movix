@@ -1,17 +1,21 @@
 import './style.css'
-function Card() {
+function Card(props) {
+  const { data } = props
+  let img_path = 'https://image.tmdb.org/t/p/original'
+  let img = data.poster_path
+    ? img_path + data.poster_path
+    : 'https://picsum.photos/100/100'
+
+    console.log(data)
+
   return (
     <div className='card-container'>
       <div>
-        <img
-          src='https://picsum.photos/100/100'
-          alt='image'
-          className='image'
-        />
+        <img src={img} alt='image' className='image' />
       </div>
       <div className='card-info'>
-        <p className='movie-info'>Movie</p>
-        <p className='description-info'>Description</p>
+        <p className='title-info'>{data.original_title}</p>
+        <p className='description-info'>{data.overview ? data.overview:'By default overview'}</p>
       </div>
     </div>
   )

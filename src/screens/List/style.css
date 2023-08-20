@@ -4,7 +4,7 @@
   align-items: center;
   margin-bottom: 10px;
   border-radius: 2px;
-
+  
   background-color: #ffffff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -17,12 +17,16 @@
   border: none;
   border-radius: 5px;
 }
+.homebutton{
+  margin-left: auto;
+  margin-right: 5px;
+}
 .container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   background-color: #ededed;
   padding: 1em .01em;
 }

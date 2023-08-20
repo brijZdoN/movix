@@ -1,13 +1,13 @@
 .card-container {
-  margin: .25em;
+  margin: 0.25em;
   flex: 1;
-  max-width: 8em;
-  min-width: 8em;
+  max-width: 10em;
+  min-width: 10em;
 }
 
 .image {
   width: 100%;
-  height: auto;
+  height: 14em;
   border-radius: 10px 10px 0 0;
   display: block;
 }
@@ -16,15 +16,22 @@
   border-radius: 0 0 10px 10px;
   background-color: #fff;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 3px 0px,
-  rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-  
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  /* height: 5em; */
 }
 
-.movie-info{
-   font-size: .8em;
-   font-weight: bold;
+.title-info {
+  font-size: 0.8em;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
-.description-info{
-  font-size:0.6em;
+.description-info {
+  margin-top: 10px;
+  font-size: 0.6em;
   margin-bottom: 1.5em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
